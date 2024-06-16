@@ -1,6 +1,6 @@
-package repository;
+package example.repository;
 
-import domain.Coupon;
+import example.domain.Coupon;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CouponRepository extends JpaRepository<Coupon,Long> {
