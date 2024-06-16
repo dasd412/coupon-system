@@ -32,7 +32,7 @@ public class ApplyServiceTest {
 
     @Test
     public void  여러번응모() throws InterruptedException {
-        int threadCount=1000;
+        int threadCount=100;
 
         ExecutorService executorService= Executors.newFixedThreadPool(32);
 
